@@ -228,6 +228,7 @@ LIBS += -L$$PREFIX_AGATE/lib/ -lagate
 
 INCLUDEPATH += \
     $$PREFIX_AGATE/include/agate\
+    $$PREFIX_AGATE/include/\
     $$PREFIX_FREETYPE/include/freetype2/
 
 DISTFILES += \
